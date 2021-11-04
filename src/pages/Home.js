@@ -1,5 +1,9 @@
 function Home(props) {
-    return <h1>Home</h1>;
+    return <div className="homepage">
+    <h1>Home</h1>
+    <p> Built Using React and Express!</p>
+    <p> Take a look at my projects!</p>
+    </div>;
   }
   
   export default Home;

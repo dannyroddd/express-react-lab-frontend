@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
@@ -15,8 +16,29 @@ code {
 img {
   height: 50%;
   width: 50%;
+  border: 10px solid black;
+  border-radius: 10px;
 }
 
-div{
-  background-color: lightblue;
+a{
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+div {
+  background-color: lightskyblue;
+}
+
+p {
+  font-size: 22px;
+}
+
+button{
+  color: white;
+  font-size: 2em;
+  background-color: gold;
+  border: 4px solid white;
+  margin: 3px;
+  border-radius: 10px;
 }
